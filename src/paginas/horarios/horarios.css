@@ -1,0 +1,43 @@
+.mapa {
+    margin-top: 100px;
+}
+
+.primerGrid {
+    margin-top: 30px;
+    padding-top: 30px !important;
+}
+
+.barraNegra {
+    width: 100%;
+    height: 110px;
+    background-color: black;
+    z-index: 13;
+    position: fixed;
+}
+
+.imgCarrusel {
+    width: 100% !important;
+}
+
+.abrirHorarios {
+    width: 100% !important;
+}
+
+@media (max-width: 600px) {
+    .primerGrid {
+        padding-top: 10px !important;
+        margin-top: 25px;
+    }
+
+    .barraNegra {
+        height: 90px;
+    }
+
+    .imgCarrusel {
+        width: 100% !important;
+    }
+
+    .abrirHorarios {
+        width: 100% !important;
+    }
+}

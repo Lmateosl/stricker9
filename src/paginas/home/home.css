@@ -1,0 +1,51 @@
+.overFlow{
+  overflow-y: auto !important;
+}
+
+.autocomplete-root {
+    background-color: transparent !important;
+    width: 50%;
+  }
+  
+.autocomplete-input {
+  color: #ffffff !important;
+}
+
+.autocomplete-input:focus {
+  color: #ffffff !important;
+}
+
+.autocomplete-label {
+  color: #ffffff !important;
+}
+
+.autocomplete-label.Mui-focused {
+  color: #79ff53 !important;
+}
+
+.autocomplete-outlinedInput {
+  border-color: #ffffff !important;
+  background-color: #1f1f1f !important;
+}
+
+.autocomplete-outlinedInput.Mui-focused .MuiOutlinedInput-notchedOutline {
+  border-color: #79ff53 !important;
+  color: #ffffff !important;
+}
+
+.autocomplete-outlinedInput.Mui-focused .MuiOutlinedInput-input {
+  color: #ffffff !important;
+}
+
+.autocomplete-outlinedInput {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  color: #ffffff !important;
+}
+
+  
+@media (max-width: 600px) {
+    .autocomplete-root {
+        width: 100%;
+        
+    }
+}

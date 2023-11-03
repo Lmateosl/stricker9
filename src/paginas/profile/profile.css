@@ -1,0 +1,40 @@
+.profileBox {
+  width: 50% !important;
+  background-color: #1f1f1f !important;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5) !important;
+  border-radius: 8px !important;
+  padding: 16px !important;
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+  gap: 8px !important;
+}
+  
+.avatar {
+  width: 96px !important;
+  height: 96px !important;
+  color: #79ff53 !important;
+  background-color: #1f1f1f !important;
+}
+
+.button {
+  width: 50% !important;
+  background-color: #79ff53 !important;
+  color: #ffffff !important;
+  margin-top: 30px !important;
+  margin-bottom: 20px !important;
+}
+
+.button:hover {
+  background-color: #79ff53 !important;
+}
+
+.letters {
+  color: #ffffff;
+}
+
+@media (max-width: 600px) {
+  .profileBox {
+    width: 80% !important;
+  }
+}

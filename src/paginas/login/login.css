@@ -1,0 +1,10 @@
+.formStyle {
+    width: 100%;
+}
+
+@media (max-width: 600px) {
+    .formStyle {
+        width: 100%;
+        
+    }
+}

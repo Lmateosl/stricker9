@@ -1,0 +1,20 @@
+.barraFondo {
+    background-color: #1f1f1f;
+    height: 90px;
+}
+
+#imagenLogo {
+    width: 170px; 
+}
+
+@media (max-width: 600px) {
+
+    .barraFondo {
+        height: 70px;
+        padding-bottom: 10px;
+    }
+
+    #imagenLogo {
+        width: 150px; 
+    }
+}

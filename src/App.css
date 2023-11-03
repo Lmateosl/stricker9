@@ -1,3 +1,13 @@
+@font-face {
+  font-family: 'Futura';
+  src: url('../public/fonts/futura medium bt.ttf') format('truetype');
+}
+
+body {
+  font-family: 'Futura' !important;
+  background-color: #292929;
+}
+
 .App {
   text-align: center;
 }
